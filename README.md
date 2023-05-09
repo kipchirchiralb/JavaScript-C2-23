@@ -1,4 +1,4 @@
-#JS Course content
+# JS Course content
 
 ### Javascript programming language
 
