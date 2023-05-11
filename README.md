@@ -5,11 +5,14 @@
 - variables - storing data --memory -- ram
 - output and input
 - data types
-- functions -- blocks of code stored in variable for re-use
+
+- functions -- blocks of code stored in variable for re-use-- scopes
+- operators == ==== \* / + - , truth table
 - control structures
-- object
-- array
-- date, math, formating
+
+- objects
+- array methods & string methods
+- date, math, RegExp
 - assigments
 
 ### JS on the browser - - The DOM api -- FE
