@@ -93,5 +93,13 @@ console.log(typeof multiplyValueByTen);
 // Assignment
 
 // Rules of naming variables
+/**
+ * Can only start with an underscore _ or a letter (not allowed to start with number or other speciall characters $%^&*)
+ * Variables are case-sensitive i.e.  num is not the same as  Num
+ * Cannot contain spaces
+ * You can not use js keywords a variables -- e.g. let , const,var, function, console,...
+ * */
+
 // passing by value vs passing by refference
+
 // arrays and Objects
