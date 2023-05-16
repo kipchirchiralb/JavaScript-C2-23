@@ -35,6 +35,9 @@ const user = {
   username: "albert",
   age: 36,
   isAmerican: true,
+  speak: function () {
+    console.log("Ican seak");
+  },
 };
 
 // JSON
@@ -43,6 +46,8 @@ console.log(user.isAmerican); // dot notaton -- false
 
 // array -- zero indexed
 const names = ["albert", "raymond", "victor", "beatrice", "sharon"];
+
+console.log(names.length);
 
 console.log(names[2]); // victor
 console.log(names[9]); // undefined

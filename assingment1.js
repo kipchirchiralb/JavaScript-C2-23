@@ -153,3 +153,33 @@ let products = [
  *
  * Add a category property to each product object with the value as the correct property category
  *  */
+
+// create an empty array -- resultProducts
+// create a loop to iterate though all the elements in the products array
+// for each element in the array, check the starting char of code property and add a category property that suits it
+// add the element(product) to the new array(resultProducts)
+
+// for loop
+// push()
+// charAt(0)
+
+let resultProducts = [];
+for (let index = 0; index < products.length; index++) {
+  let product = products[index];
+  let firstCharOfProductCode = product.code.charAt(0);
+  if (firstCharOfProductCode === "A") {
+    product.category = "Apparrel";
+  } else if (firstCharOfProductCode === "B") {
+    product.category = "Beauty";
+  } else if (firstCharOfProductCode === "E") {
+    product.category = "Electronics";
+  } else if (firstCharOfProductCode === "F") {
+    product.category = "Food";
+  } else if (firstCharOfProductCode === "H") {
+    product.category = "Home";
+  } else {
+    product.category = "random";
+  }
+  resultProducts.push(product);
+}
+console.log(resultProducts);
