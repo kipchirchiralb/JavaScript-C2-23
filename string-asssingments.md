@@ -4,9 +4,7 @@ Palindrome checker: Write a function that takes a string as an argument and retu
 
 Reverse string: Write a function that takes a string as an argument and returns the string reversed. You can use string methods such as split(), reverse(), and join() to accomplish this task.
 
-Longest word in a string: Write a function that takes a string as an argument and returns the longest word in the string. You can use string methods such as split(), sort(), and length to accomplish this task.
-
-
+Longest word in a string: Write a function that takes a string as an argument and returns the longest word in the string. You can use string methods such as split(), and length to accomplish this task.
 
 ##### Write a JavaScript program that analyzes a given paragraph and performs the following tasks:
 
@@ -26,28 +24,28 @@ Paragraph: "JavaScript is an amazing programming language. It is versatile and w
 
 Word Count: 20
 Longest Word: "programming"
-Word Frequency: 
+Word Frequency:
 {
-  "javascript": 2,
-  "is": 2,
-  "an": 1,
-  "amazing": 1,
-  "programming": 1,
-  "language": 1,
-  "it": 1,
-  "versatile": 1,
-  "and": 1,
-  "widely": 1,
-  "used": 1,
-  "in": 1,
-  "web": 1,
-  "development": 1,
-  "allows": 1,
-  "developers": 1,
-  "to": 1,
-  "create": 1,
-  "interactive": 1,
-  "dynamic": 1,
-  "pages": 1
+"javascript": 2,
+"is": 2,
+"an": 1,
+"amazing": 1,
+"programming": 1,
+"language": 1,
+"it": 1,
+"versatile": 1,
+"and": 1,
+"widely": 1,
+"used": 1,
+"in": 1,
+"web": 1,
+"development": 1,
+"allows": 1,
+"developers": 1,
+"to": 1,
+"create": 1,
+"interactive": 1,
+"dynamic": 1,
+"pages": 1
 }
 Most Frequent Word(s): "javascript" and "is" (frequency: 2)
