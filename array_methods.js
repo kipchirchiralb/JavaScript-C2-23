@@ -8,4 +8,27 @@ console.log(fruits.indexOf("jnsdjdn"));
 console.log(fruits);
 console.log(fruits[67]); // undefined
 
+// Destructive/Mutative methods - push,pop,shift,unshift,unshift,splice
+
+// Non-Destructive/Non-Mutative methods - filter, map , reducce, slice
+
+// Some methods have a return value some do have a return value
+console.log("---------------------------------");
+let numbersArray = [23, 32, 3, 4, 55, 669, 45];
+let lenghtOfNewArray = numbersArray.push(100); // return lenght of new array, modifies/mutate/desctructures the original array
+console.log(numbersArray);
+console.log(lenghtOfNewArray);
+
+// some methods like forEach() does not have a return value
+let returnValue = numbersArray.forEach(() => {});
+console.log(returnValue); // undefined
+
+// some methods do not mutate/change the original array
+console.log("=================================");
+console.log(numbersArray);
+numbersArray.indexOf(3);
+console.log(numbersArray);
+
+//always check return value && if it mutates the original array
+
 // Higher Order Functions -- FP

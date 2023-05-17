@@ -8,8 +8,7 @@
 - functions -- blocks of code stored in variable for re-use-- scopes
 - operators == ==== \* / + - , truth table
 - control structures
-
-- objects
+- objects -- OOP
 - array methods & string methods
 - date, math, RegExp
 - assigments
