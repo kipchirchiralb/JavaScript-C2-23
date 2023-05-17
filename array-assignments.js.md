@@ -1,9 +1,7 @@
 ## Array Assignments
 
-Palindrome checker: Write a function that takes a string as an argument and returns a boolean indicating whether the string is a palindrome (a word or phrase that reads the same forwards and backwards). You can use string methods such as split(), reverse(), and join() to accomplish this task.
+- Reverse string: Write a function that takes a string as an argument and returns the string reversed. You can use string methods such as split(), reverse(), and join() to accomplish this task.
 
-Reverse string: Write a function that takes a string as an argument and returns the string reversed. You can use string methods such as split(), reverse(), and join() to accomplish this task.
+- Given an array of intervals, merge overlapping intervals and return a new array of merged intervals. Each interval is represented as an array of two integers, where the first element is the start of the interval and the second element is the end of the interval.
 
-Longest word in a string: Write a function that takes a string as an argument and returns the longest word in the string. You can use string methods such as split(), sort(), and length to accomplish this task.
-
-Array flattening: Write a function that takes a nested array as an argument and returns a flattened array. You can use array methods such as concat(), reduce(), and flat() to accomplish this task.
+- Given an array of numbers, return an array where each element is the product of all the elements in the original array except the current element.
