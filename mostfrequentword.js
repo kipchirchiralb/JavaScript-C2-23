@@ -8,7 +8,7 @@
 // console.log("helo(g)".replace(")", "").replace());
 
 let sentence =
-  "Most Frequent Word: Identify word(s) with highest frequency in paragraph. Display word(s) and its frequency. Ifre are multiple words with same highest frequency, display all of them.";
+  "Longest Word: Find and display the longest word in same the paragraph. In case of multiple words Longest with the same longest same length, display same the first one encountered.";
 let sentenceArray = sentence.split(" ");
 
 function cleanWords(arr) {
@@ -52,4 +52,17 @@ const largestCount = Math.max(...wordCount); // spread operator ...
 const mostFrequentWord = countedWords[wordCount.indexOf(largestCount)];
 
 console.log(mostFrequentWord, largestCount);
+console.log(wordCount);
+console.log(countedWords);
+
+let indicesOfMostFrequentWords = [];
+wordCount.forEach((count, index) => {
+  if (count == largestCount) {
+    indicesOfMostFrequentWords.push(index);
+  }
+});
+indicesOfMostFrequentWords.forEach((num) => {
+  console.log(countedWords[num]); // word that is appearing most frequently
+});
+
 //console.log(Math.max(21, 2, 34, 56, 3, 44, 56, 52));
